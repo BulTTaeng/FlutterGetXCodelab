@@ -28,6 +28,8 @@ ListView 사용 (총 3개의 페이지 만들기)
 
 Flutter Codelab 2
 모든 메뉴 이동에 관한 스크립트는 menu.dart에 존재해야함.
+
+
 3. 홈페이지
 홈페이지로 라우팅되면, Model Class의 dummy data(미리 만들어진 데이터)를 가
 지고 차트 , 게이지 혹은 그래프를 만들어야함.
