@@ -3,6 +3,7 @@ import 'package:codelab/controller/nav_controller.dart';
 import 'package:get/get.dart';
 
 class CustomDrawer extends StatelessWidget {
+  NavController nav = NavController();
 
   @override
   Widget build(BuildContext context) {
@@ -27,22 +28,25 @@ class CustomDrawer extends StatelessWidget {
               leading: const Icon(Icons.home),
               title: const Text("Home Page"),
               onTap: () {
-                NavController navController = Get.find<NavController>();
-                navController.navigate(1);
+                //NavController navController = Get.find<NavController>();
+                //navController.navigate(1);
+                nav.navigate(1);
               }),
           ListTile(
               leading: const Icon(Icons.person),
               title: const Text("My Page"),
               onTap: () {
-                NavController navController = Get.find<NavController>();
-                navController.navigate(2);
+                //NavController navController = Get.find<NavController>();
+                //navController.navigate(2);
+                nav.navigate(2);
               }),
           ListTile(
               leading: const Icon(Icons.settings),
               title: const Text("Setting Page"),
               onTap: () {
-                NavController navController = Get.find<NavController>();
-                navController.navigate(3);
+                //NavController navController = Get.find<NavController>();
+                //navController.navigate(3);
+                nav.navigate(3);
               }),
         ],
       ),

@@ -6,6 +6,8 @@ import 'package:codelab/settingpage/setting_page.dart';
 import 'package:get/get.dart';
 import 'package:codelab/route/routes.dart';
 
+import '../binding/count_binding.dart';
+
 class Pages{
   static final routes =[
     GetPage(
@@ -13,7 +15,7 @@ class Pages{
       page: () => HomePage(),
       bindings: [
         ChartBinding(),
-        NavBinding()
+        //NavBinding()
       ],
       transition: Transition.noTransition,
     ),
@@ -21,7 +23,8 @@ class Pages{
       name: Routes.MYPAGE,
       page: () => MyPage(),
       bindings: [
-        NavBinding()
+        //NavBinding(),
+        CountBinding()
       ],
       transition: Transition.noTransition,
     ),
@@ -29,7 +32,7 @@ class Pages{
       name: Routes.SETTINGPAGE,
       page: () => SettingPage(),
       bindings: [
-        NavBinding()
+        //NavBinding()
       ],
       transition: Transition.noTransition,
     ),

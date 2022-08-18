@@ -14,7 +14,6 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
   final String title;
   final AppBar appBar;
   final int page;
-  ChartController chartController = Get.find<ChartController>();
 
   @override
   Widget build(BuildContext context){
@@ -30,6 +29,7 @@ class CustomAppbar extends StatelessWidget implements PreferredSizeWidget {
       return [
         IconButton(
             onPressed: (){
+              ChartController chartController = Get.find<ChartController>();
               chartController.increase();
               print(chartController.charData);
             },
