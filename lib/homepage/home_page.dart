@@ -10,6 +10,7 @@ import 'package:syncfusion_flutter_charts/sparkcharts.dart';
 
 class HomePage extends StatelessWidget {
   ChartController chartController = Get.find<ChartController>();
+  //NavController navController = Get.find<NavController>();
 
   @override
   Widget build(BuildContext context) {
