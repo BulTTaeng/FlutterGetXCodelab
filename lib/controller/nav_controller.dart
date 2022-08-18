@@ -18,7 +18,7 @@ class NavController extends GetxController{
           Get.defaultDialog(title: "We are going to Mypage" ,
               middleText: "hi",
               onConfirm:() {},
-              onCancel: () => print("fdyo"));
+              onCancel: () => print("cancel"));
           Get.snackbar("My Page",
               "hi",
           snackPosition: SnackPosition.BOTTOM);

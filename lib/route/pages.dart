@@ -1,3 +1,4 @@
+import 'package:codelab/binding/chart_binding.dart';
 import 'package:codelab/binding/nav_binding.dart';
 import 'package:codelab/homepage/home_page.dart';
 import 'package:codelab/mypage/my_page.dart';
@@ -10,17 +11,26 @@ class Pages{
     GetPage(
       name: Routes.HOMEPAGE,
       page: () => HomePage(),
-      binding: NavBinding(),
+      bindings: [
+        ChartBinding(),
+        NavBinding()
+      ],
       transition: Transition.noTransition,
     ),
     GetPage(
       name: Routes.MYPAGE,
       page: () => MyPage(),
+      bindings: [
+        NavBinding()
+      ],
       transition: Transition.noTransition,
     ),
     GetPage(
       name: Routes.SETTINGPAGE,
       page: () => SettingPage(),
+      bindings: [
+        NavBinding()
+      ],
       transition: Transition.noTransition,
     ),
   ];
