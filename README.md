@@ -21,14 +21,13 @@ ListView 사용 (총 3개의 페이지 만들기)
 홈페이지 (초기페이지)
 마이 페이지
 설정 페이지
-모든 라우팅은 GetX의 Named Routing(Get.toNamed, Get.back) 를 사용
+모든 라우팅은 GetX의 Named Routing(Get.toNamed, Get.back, Get.offNamed)을 사용
 이동할 때 Get.snackbar를 사용하여 어느페이지로 갔는지 메시지
 를 띄워줄 것
 
 
 Flutter Codelab 2
-모든 메뉴 이동에 관한 스크립트는 menu.dart에 존재해야함.
-
+모든 메뉴(Drawer) 이동에 관한 스크립트는 custom_drawer.dart에 존재해야함.
 
 3. 홈페이지
 홈페이지로 라우팅되면, Model Class의 dummy data(미리 만들어진 데이터)를 가
@@ -43,6 +42,7 @@ Flutter Codelab 2
 4. 마이페이지
 a. StatefulWidget이 아닌 StatelessWidget으로 작성.
 b. +-버튼을 생성, 값이 1씩 증가 혹은 감소하는 것을 화면에 표현
+
 Flutter Codelab 3
 c. Get.find를 이용하여 Controller를 찾아 controller의 변수를 사용할 것 (GetX
 update()함수 사용 + GetBuilder()사용)
