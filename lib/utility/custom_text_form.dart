@@ -26,8 +26,8 @@ class CustomTextForm extends StatelessWidget
             (
             validator: (value)
             {
-              if (value == null || value.isEmpty) {
-                return '아이디를 입력해 주세요';
+              if (value == null || value.isEmpty || value.length < 6) {
+                return '$str을 확인해 주세요';
               }
               return null;
             },
