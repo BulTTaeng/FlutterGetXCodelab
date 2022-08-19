@@ -1,4 +1,5 @@
 import 'package:codelab/binding/chart_binding.dart';
+import 'package:codelab/binding/form_binding.dart';
 import 'package:codelab/binding/nav_binding.dart';
 import 'package:codelab/homepage/home_page.dart';
 import 'package:codelab/mypage/my_page.dart';
@@ -32,7 +33,7 @@ class Pages{
       name: Routes.SETTINGPAGE,
       page: () => SettingPage(),
       bindings: [
-        //NavBinding()
+        FormBinding()
       ],
       transition: Transition.noTransition,
     ),
