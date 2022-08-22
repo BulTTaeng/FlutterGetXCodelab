@@ -63,4 +63,4 @@ ii. 하나는 ok(id, pwd를 Get.defaultDialog로 출력
 
 # DONE
 
-[시연 영상 : Youtube Link](https://youtu.be/NHw9X4qOmdM)
+[시연 영상 : Youtube Link](https://youtube.com/shorts/o66DFzM7G4M)
