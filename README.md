@@ -60,3 +60,7 @@ d. TextEditingController는 GetXController 사용 (form_controller.dart에서 �
 e. 버튼 2개 필요
 i. 하나는 reset(id, pwd 입력한거 reset)
 ii. 하나는 ok(id, pwd를 Get.defaultDialog로 출력
+
+# DONE
+
+[시연 영상 : Youtube Link](https://youtu.be/NHw9X4qOmdM)
